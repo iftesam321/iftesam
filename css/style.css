@@ -1,0 +1,151 @@
+body{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand',sans-serif;
+  background: #fff;
+  color: #000;
+  overflow-x: hidden; 
+}
+
+ul{
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+.navbar{
+  position: relative;
+}
+
+.navbar-collapse{
+  text-align: center;
+} 
+
+.navbar-light .navbar-toggler:focus
+{
+color: #000;
+box-shadow: 0 0 0 2px;
+}
+a{
+  text-decoration: none !important;
+  color: #999;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover{
+  color: #0dcaf0 !important;
+}
+.navbar ul li{
+  position: relative;
+  margin-left: 2.5rem;
+  margin-right: 1rem;
+}
+
+.navbar ul li a{
+  position: relative;
+  display: block;
+  font-family:"Poppins",sans-serif ;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: #999;
+}
+
+/* banner content */
+
+.banner-section{
+  position: relative;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.banner-section .banner-title{
+  position: relative;
+  margin:0;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  font-family: "Poppins",sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+/*portfolio */
+
+.portfolio-section{
+  position: relative;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.portfolio-section .container{
+  position: relative;
+  padding-top: 3rem;
+  padding-bottom: 3rem; 
+  border-color: #000 1px;
+}
+
+.resume-section img{
+  padding-left:10px;
+  position:relative;
+  height:30px;
+}
+
+.portfolio-section .port-title{
+  color: #000;
+  font-weight: 600;
+}
+
+.portfolio-section .port-title,.port-role,.port-desc,.port-job{
+  padding-left: 15px;
+}
+
+.resume-section .resume:hover
+{
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+  box-shadow: 10px 10px 5px #888888;
+  color: #0dcaf0 !important; 
+}
+
+
+/*about*/
+
+.about-section{
+position: relative;
+padding-top: 3rem;
+padding-bottom: 3rem;
+}
+
+.about-section img{
+  padding-left:10px;
+  position:relative;
+  height:500px;
+}
+
+.about-section .contact-title{
+  margin: 0;
+  
+  padding-bottom: 2rem;
+  font-family: "Poppins",sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #000;
+
+}
+
+.about-section p{
+  position: relative;
+  font-weight: 22px;
+  font-weight: 500;
+}
