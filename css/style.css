@@ -82,6 +82,7 @@ a:hover{
   position: relative;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  
 }
 
 .portfolio-section .container{
@@ -99,11 +100,16 @@ a:hover{
 
 .portfolio-section .port-title{
   color: #000;
+  text-decoration: underline;
   font-weight: 600;
 }
 
 .portfolio-section .port-title,.port-role,.port-desc,.port-job{
   padding-left: 15px;
+  color: #000;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: "Poppins",sans-serif;
 }
 
 .resume-section .resume:hover
